@@ -1,0 +1,3 @@
+String to Integer   - Integer.valueOf( String);		or	Integer.parseInt(string);
+Integer to String   - String.valueOf( Integer);
+
