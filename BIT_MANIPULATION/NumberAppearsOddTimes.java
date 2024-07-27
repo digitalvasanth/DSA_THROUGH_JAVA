@@ -16,9 +16,9 @@ public class NumberAppearsOddTimes {
         for(int i:arr)
         {
             if((i&rightmost)!=0)
-                b2=b2^i;
-            else
                 b1=b1^i;
+            else
+                b2=b2^i;
         }
 
         System.out.println(b1+" "+b2);
