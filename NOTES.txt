@@ -1,5 +1,5 @@
 	
-	BASIC : -	
+BASIC : -	
 
 		String to Integer   - Integer.valueOf( String);		or	Integer.parseInt(string);
 		Integer to String   - String.valueOf( Integer);
@@ -7,14 +7,11 @@
 
 
 
-	MOD OPERATOR :-
+MOD OPERATOR :-
 
 
 		int M = Math.pow(10,9)+7;
 		int M=1000000007;
-
-
-	
 	
 		1. (A+B)%M = ((A%M) + (B%M)) % M
 		2. (A-B)%M = ((A%M) - (B%M) +M)%M
