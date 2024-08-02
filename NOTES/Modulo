@@ -1,0 +1,11 @@
+		MOD VALUE IS 100000007
+		int M = Math.pow(10,9)+7;
+		int M=1000000007;
+
+
+	
+	
+	1. (A+B)%M = ((A%M) + (B%M)) % M
+	2. (A-B)%M = ((A%M) - (B%M) +M)%M
+	3. (A%B)%M = ((A%M) % (B%M))%M
+	4. (A/B)%M = ((A%M) / (B%M))%M
