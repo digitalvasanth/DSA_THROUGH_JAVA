@@ -1,5 +1,5 @@
-import java.util.*;
 //HALF PYRAMID PATTERN WITH ROW NUMBERS
+import java.util.*;
 public class pattern4{
 
     public static void main(String args[] )

@@ -1,5 +1,5 @@
-import java.util.*;
 // DIAMOND (PYRAMID+REVERSE PYRAMID)
+import java.util.*;
 public class pattern9{
 
     public static void main(String args[] )

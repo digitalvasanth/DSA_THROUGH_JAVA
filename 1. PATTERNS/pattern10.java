@@ -1,5 +1,5 @@
-import java.util.*;
 // HALF DIAMOND
+import java.util.*;
 public class pattern10{
 
     public static void main(String args[] )

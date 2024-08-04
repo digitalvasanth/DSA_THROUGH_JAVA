@@ -1,3 +1,9 @@
+/*
+Input:N = 2
+Output:True
+Explanation: 2 is a prime number because it has two divisors: 1 and 2 (the number itself).
+ */
+
 public class PrimeNumber {
     
 

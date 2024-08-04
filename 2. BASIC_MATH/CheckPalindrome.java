@@ -1,7 +1,11 @@
+/*
+ * Input: N = 12321
+Output: Yes
+Explanation: 12321 is a Palindrome number because after reversing its digits, the number becomes 12321 which is same as the original number.
+ */
+
+
 public class CheckPalindrome {
-
-
-  
         public static void main(String [] args)
         {
             int n=4554;

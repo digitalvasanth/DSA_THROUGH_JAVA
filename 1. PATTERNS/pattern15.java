@@ -1,3 +1,4 @@
+//REVERSE RIGHT ANGLED TRIANGLE WITH CHARACTERS
 import java.util.*;
 public class pattern15{
 

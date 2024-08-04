@@ -1,6 +1,9 @@
-
+/*  Input:153
+    Output: Yes
+    153 is an Armstrong number.
+    1*1*1 + 5*5*5 + 3*3*3 = 153 
+    */
 public class Armstrong {
-
     public static void main(String [] args)
     {
        int number=153;
@@ -18,9 +21,9 @@ public class Armstrong {
         temp=temp/10;
        }
        if(ans==number)
-       System.out.println("True");
+       System.out.println("Yes");
        else
-       System.out.println("False");
+       System.out.println("No");
 
 
         

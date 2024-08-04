@@ -1,4 +1,8 @@
-
+/*
+ input: N = 1567
+Output: 4
+Explanation: There are 4 digits in 1567, which are 1, 5, 6 and 7.
+ */
 
 public class CountDigits {
     

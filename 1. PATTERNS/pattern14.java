@@ -1,3 +1,4 @@
+//RIGHT ANGLE TRIANGLE WITH CHARACTERS
 import java.util.*;
 public class pattern14{
 

@@ -1,3 +1,4 @@
+//RIGHT ANGLED TRIANGLE WITH NUMBERS
 import java.util.*;
 public class pattern13{
 

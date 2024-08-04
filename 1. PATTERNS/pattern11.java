@@ -1,3 +1,4 @@
+// RIGHT ANGLED TRIANGLE WITH 01
 import java.util.*;
 public class pattern11{
 

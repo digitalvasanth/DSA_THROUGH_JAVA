@@ -1,5 +1,5 @@
-import java.util.*;
 //HALF PYRAMID PATTERN WITH STARS
+import java.util.*;
 public class pattern2{
 
     public static void main(String args[] )

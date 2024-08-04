@@ -1,5 +1,5 @@
-import java.util.*;
 //REVERSE HALF PYRAMID
+import java.util.*;
 public class pattern6{
 
     public static void main(String args[] )

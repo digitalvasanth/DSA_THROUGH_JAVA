@@ -1,3 +1,8 @@
+/*
+Input:N = 36
+Output:[1, 2, 3, 4, 6, 9, 12, 18, 36]
+Explanation: The divisors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36.
+ */
 import java.util.*;
 public class PrintDivisors {
     
