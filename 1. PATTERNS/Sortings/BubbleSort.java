@@ -1,9 +1,7 @@
 
-
 public class BubbleSort
 {
     public static void main(String [] args)
-
 {
     int arr[]={55,2,1,33,42,145};
     System.out.println("Before Sorting ");
