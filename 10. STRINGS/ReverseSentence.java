@@ -5,7 +5,7 @@ public class ReverseSentence {
      String s=" data structures and algorithms      ";
 
     s=s.trim();
-    String arr[]=s.split(" ");
+    String arr[]=s.split("\\s+");
     for(int i=arr.length-1;i>=0;i--)
     {
         if(i>0)
