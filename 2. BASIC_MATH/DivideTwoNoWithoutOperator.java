@@ -2,7 +2,6 @@
  Divide a and b , print how many times b divides a.
  */
 public class DivideTwoNoWithoutOperator{
-
     public static void main(String [] args)
     {
         int a=15;
