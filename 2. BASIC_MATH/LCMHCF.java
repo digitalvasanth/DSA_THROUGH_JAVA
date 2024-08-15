@@ -10,12 +10,18 @@ public class LCMHCF {
     
     // Function to calculate the Greatest Common Divisor (GCD) or Highest Common Factor (HCF)
     public static int gcd(int a, int b) {
-        while (b != 0) {
-            int temp = b;
-            b = a % b;
-            a = temp;
+        
+        while(a>0&&b>0)
+        {
+            if(a>b)
+                a=a%b;
+            else
+                b=b%a;
         }
-        return a;
+        if(a==0)
+            return b; 
+        else
+            return a;  
     }
 
     // Function to calculate the Least Common Multiple (LCM)

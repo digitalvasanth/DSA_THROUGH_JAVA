@@ -1,7 +1,7 @@
 //Count No Of Primes Within Range
 //Sieve of Eratosthenes
 import java.util.*;
-public class CountPrimesInRange
+public class CountPrimesTillN
 {
     public static void main(String [] args)
     {
