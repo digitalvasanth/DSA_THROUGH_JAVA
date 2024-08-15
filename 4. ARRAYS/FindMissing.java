@@ -1,3 +1,9 @@
+/*
+ Input Format: N = 5, array[] = {1,2,4,5}
+Result: 3
+Explanation:In the given array, number 3 is missing. So, 3 is the answer.
+ */
+
 public class FindMissing {
     
     public static void main(String [] args)

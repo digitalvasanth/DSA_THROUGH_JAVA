@@ -1,3 +1,5 @@
+//check the array is sorted or not
+
 public class CheckSortedOrNot {
     
     public static void main(String [] args){

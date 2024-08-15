@@ -1,3 +1,7 @@
+//Given an array of N integers, and an integer K,
+// the task is to find the number of pairs of integers in the array
+//whose sum is equal to K.
+
 
 import java.util.Arrays;
 

@@ -1,3 +1,11 @@
+/*
+Input:
+n = 5,m = 5.
+arr1[] = {1,2,3,4,5}  
+arr2[] = {2,3,4,4,5}
+Output:
+ {1,2,3,4,5}
+ */
 import java.util.*;
 public class FindUnion {
     
