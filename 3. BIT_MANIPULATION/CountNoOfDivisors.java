@@ -1,3 +1,13 @@
+/*
+ Input : 18
+Output : 6
+Divisors of 18 are 1, 2, 3, 6, 9 and 18.
+
+Input : 100
+Output : 9
+Divisors of 100 are 1, 2, 4, 5, 10, 20,25, 50 and 100
+ */
+
 import java.util.*;
 public class CountNoOfDivisors {
     

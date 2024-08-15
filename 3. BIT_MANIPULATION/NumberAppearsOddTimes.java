@@ -1,3 +1,8 @@
+/*
+ *
+Example: Array = [5, 4, 4, 2, 1]
+Output: 5 2 1.
+ */
 public class NumberAppearsOddTimes {
     
     public static void main(String [] args)

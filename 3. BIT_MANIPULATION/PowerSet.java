@@ -1,3 +1,4 @@
+//PRINTING SUBSETS OF AN ARRAY
 import java.util.*;
 public class PowerSet {
     
@@ -16,8 +17,8 @@ public class PowerSet {
             ArrayList<Integer>il=new ArrayList<>();
             for(int j=0;j<arr.length;j++)
             {
-                if((i&(1<<j))!=0)
-                il.add(arr[j]);
+                    if( ((i>>j)&1)!=0 )
+                    il.add(arr[j]);
             }
             list.add(il);
         }

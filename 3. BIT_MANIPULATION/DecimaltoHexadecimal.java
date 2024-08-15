@@ -1,7 +1,13 @@
-public class DecimaltoHexadecimal {
-    
+/*
+ Input : 10
+Output: A
 
-    public static void main(String [] args)
+Input : 2545
+Output: 9F1
+ */
+
+public class DecimaltoHexadecimal {
+        public static void main(String [] args)
     {
         int dec=10;
 

@@ -1,3 +1,11 @@
+/*
+ Input : 1100
+Output : 12
+Input : 1111
+Output : 15
+ */
+
+
 import java.util.*;
 public class BinaryToDecimal {
     public static void main(String [] args)

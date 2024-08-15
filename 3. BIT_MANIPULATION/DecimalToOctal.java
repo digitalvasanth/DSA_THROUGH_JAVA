@@ -1,3 +1,10 @@
+/*
+ Input : 33
+Output: 41
+Input : 10
+Output: 12
+ */
+
 public class DecimalToOctal {
     
     public static void main(String [] args)

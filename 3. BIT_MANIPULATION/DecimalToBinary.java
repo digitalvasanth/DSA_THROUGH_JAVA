@@ -1,6 +1,11 @@
+/*
+ Input : 7
+Output : 111
+
+Input: 33
+Output: 100001
+ */
 import java.util.*;
-
-
 public class DecimalToBinary
 {
     public static void main(String [] args)

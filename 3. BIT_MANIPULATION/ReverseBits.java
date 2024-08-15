@@ -1,3 +1,10 @@
+/*
+ Input : 11
+Output : 13
+Explanation: (11)10 = (1011)2.
+After reversing the bits we get: (1101)2 = (13)10.
+ */
+
 public class ReverseBits {
     
     public static void main(String [] args)

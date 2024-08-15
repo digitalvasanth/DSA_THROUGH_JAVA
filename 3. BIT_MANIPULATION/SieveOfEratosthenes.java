@@ -1,8 +1,9 @@
+// print primes till n
 public class SieveOfEratosthenes
 {
     public static void main(String [] args)
     {
-        int n=10;
+        int n=50;
         //print primes less than n
 
         checkPrime(n);
