@@ -1,3 +1,8 @@
+/*
+ Example 1:
+Input: N = 5, arr[ ] = {1,0,1,1,0}
+Output: {0,0,1,1,1}
+ */
 public class Sort0And1 {
     
     public static void main(String [] args)
