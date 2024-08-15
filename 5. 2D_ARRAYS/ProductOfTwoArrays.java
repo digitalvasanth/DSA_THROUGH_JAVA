@@ -1,3 +1,11 @@
+/*
+    Input:
+           A[][] = {{2, 4}, {3, 4}}
+           B[][] = {{1, 2}, {1, 3}}
+    Output:
+           {{6, 16}, 
+           {7, 18}}
+ */
 public class ProductOfTwoArrays {
     
     public static void main(String [] args)

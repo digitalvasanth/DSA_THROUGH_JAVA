@@ -1,3 +1,12 @@
+/*
+ Matrix
+a11    a12    a13
+a21    a22    a23
+Transposed Matrix
+a11    a21
+a12    a22
+a13    a23
+ */
 public class Transpose {
     
     public static void main(String [] args)
