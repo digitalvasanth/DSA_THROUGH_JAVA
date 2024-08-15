@@ -1,3 +1,8 @@
+/*
+ Input: arr[] = {10, 20, 20, 10, 30, 10}
+Output: 3
+Explanation: There are three distinct elements 10, 20, and 30.
+ */
 import java.util.*;
 public class CountUniqueElements {
     
