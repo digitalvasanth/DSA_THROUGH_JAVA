@@ -1,3 +1,7 @@
+/*
+ Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
+ */
 import java.util.*;
 public class BalancedParenthesis {
     
