@@ -1,3 +1,8 @@
+/*
+ Input  : geeksforgeeks
+Output : g
+(mind that it will be g, not e.)
+ */
 import java.util.*;
 public class FirstRepeatingCharacter{
     public static void main(String [] args)

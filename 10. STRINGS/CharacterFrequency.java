@@ -1,5 +1,9 @@
+/*
+ Input : str = "elephant"
+Output : e2 l1 p1 h1 a1 n1 t1
+ */
 import java.util.*;
-public class StringAndItsFrequency {
+public class CharacterFrequency {
     
 
 public static void main(String [] args)

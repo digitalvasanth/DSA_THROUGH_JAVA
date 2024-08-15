@@ -1,4 +1,8 @@
-import java.util.*;
+/*
+Input: num = "52"
+Output: "5"
+Explanation: The only non-empty substrings are "5", "2", and "52". "5" is the only odd number.
+ */
 public class LargestOddNoInString {
     
     public static void main(String [] args)

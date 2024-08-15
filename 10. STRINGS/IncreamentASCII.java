@@ -1,3 +1,7 @@
+/*
+ Input: String = "interviews" , k= 10
+ Output: "sxdobfsogc"
+ */
 public class IncreamentASCII {
     
     public static void main(String [] args)

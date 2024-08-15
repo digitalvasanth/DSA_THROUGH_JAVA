@@ -1,3 +1,8 @@
+//Given a string S consisting of only lowercase characters, find the length of the longest substring that does not contain any vowel.
+/*
+ Input : smartinterviews
+ Output: 2
+ */
 public class LongestSubStringWithoutVowels {
     
     public static void main(String [] args)

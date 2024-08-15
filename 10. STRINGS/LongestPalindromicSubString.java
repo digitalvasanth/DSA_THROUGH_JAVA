@@ -1,3 +1,9 @@
+/*
+ Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+ */
+
 public class LongestPalindromicSubString {
     
     public static void main(String [] args)

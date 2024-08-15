@@ -1,4 +1,9 @@
+/*
+ Input: CAT, ACT
+Output: true
+Explanation: Since the count of every letter of both strings are equal.
 
+ */
 import java.util.Arrays;
 
 public class CheckAnagrams {

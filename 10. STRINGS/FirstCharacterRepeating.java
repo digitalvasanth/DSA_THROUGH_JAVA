@@ -1,3 +1,8 @@
+/*
+ Input: s = “geeksforgeeks” 
+Output: e 
+Explanation: e is the first element that repeats
+ */
 import java.util.*;
 public class FirstCharacterRepeating {
     public static void main(String [] args)

@@ -1,3 +1,7 @@
+/*
+ Input : "I love Java Programming"
+Output :"Programming Java love I"
+ */
 public class ReverseSentence {
     
     public static void main(String [] args)
