@@ -1,3 +1,8 @@
+/*
+ Input: arr[] = {1, 5, 7, -1}, K = 6
+Output:  2
+Explanation: Pairs with sum 6 are (1, 5) and (7, -1).
+ */
 public class SumOfPairs {
     
     public static void main(String [] args)
