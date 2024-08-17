@@ -7,19 +7,17 @@ Input: n = 5, k = 2
 Output:Set
 Explanation: 2 is represented as 10 in binary, all higher i.e. beyond MSB, bits are NOT SET.
  */
-
-import java.util.*;
 public class CheckithBitisSet {
     public static void main(String [] args)
     {
-        Scanner sc=new Scanner (System.in);
-            long n=5;
-            long i=2;
+       
+            int  n=5;
+            int  i=1;
 
-        if(( (n)&(1<<i))!=0)
-        System.out.println("Set");
+        if(((n>>i)&1)!=0)
+            System.out.println("Set");
         else
-        System.out.println("Not Set");
+            System.out.println("Not Set");
 
     }
 }

@@ -13,7 +13,7 @@ public class CountOfFlipBitsToConvert {
     public static void main(String [] args)
     {
         int a=10;
-        int b=7;
+        int b=5;
 
         //to convert a to b
         int count=0;
@@ -21,7 +21,7 @@ public class CountOfFlipBitsToConvert {
         while(ans!=0)
         {
             if((1&ans)!=0)
-            count++;
+                count++;
 
             ans=ans>>1;
         }

@@ -18,6 +18,7 @@ public class FindXorWithinLandR {
 
     public static int fun(int n)
     {
+       
         if(n%4==0)
         return n;
         if(n%4==1)

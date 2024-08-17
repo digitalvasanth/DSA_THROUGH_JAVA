@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 // print primes till n
 public class SieveOfEratosthenes
 {
@@ -5,15 +8,14 @@ public class SieveOfEratosthenes
     {
         int n=50;
         //print primes less than n
-
         checkPrime(n);
     }
     public static void checkPrime(int n)
     {
         int prime[]=new int[n];
-        for(int i=2;i<n;i++)
-        prime[i]=1;
-
+        Arrays.fill(prime,1);
+        prime[0]=0;
+        prime[1]=0;
 
         for(int i=2;i*i<=n;i++)
         {

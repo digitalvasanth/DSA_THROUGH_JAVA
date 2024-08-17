@@ -7,8 +7,7 @@ public class NumberAppearsOddTimes {
     
     public static void main(String [] args)
     {
-        int arr[]={1,1,2,2,4,5,4,6,6,10};
-
+        int arr[]={5,4,4,2,1};
         int xorr=0;
         for(int i:arr)
         xorr^=i;
