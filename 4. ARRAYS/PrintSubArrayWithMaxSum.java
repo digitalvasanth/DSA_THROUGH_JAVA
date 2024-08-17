@@ -3,7 +3,7 @@
 Output: [4,-1,2,1]
 Explanation: [4,-1,2,1] has the largest sum = 6. 
  */
-public class PrintsSubArrayWithMaxSum {
+public class PrintSubArrayWithMaxSum {
     
     public static void main(String [] args)
     {
@@ -16,8 +16,8 @@ public class PrintsSubArrayWithMaxSum {
         for(int i=0;i<arr.length;i++)
         {
             if(sum==0)
-            start=i;
-
+                start=i;
+            
             sum+=arr[i];
 
             if(sum>maxsum)
@@ -27,9 +27,10 @@ public class PrintsSubArrayWithMaxSum {
                 ansEnd=i;
             }
             if(sum<0)
-            sum=0;
+                sum=0;
         }
+
         for(int k=ansStart;k<=ansEnd;k++)
-        System.out.print(arr[k]+" ");
+            System.out.print(arr[k]+" ");
     }
 }
