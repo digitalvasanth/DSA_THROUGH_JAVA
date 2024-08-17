@@ -1,9 +1,5 @@
 	
-BASIC : -	
 
-		String to Integer   - Integer.valueOf( String);		or	Integer.parseInt(string);
-		Integer to String   - String.valueOf( Integer);
-		Count of Digits 	Math.log10( n )+1
 
 
 

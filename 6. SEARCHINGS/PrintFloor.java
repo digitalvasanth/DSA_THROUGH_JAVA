@@ -1,16 +1,16 @@
 //Given an array, you have to find the floor of a number x. The floor of a number x is nothing but the largest number in the array less than or equal to x.
 /*
- arr[]= [-6 10 -1 20 15 5], x=5
- Output= -1
+ Input: arr[] = {1, 2, 8, 10, 10, 12, 19}, x = 5
+Output: 2
  */
 
 import java.util.Arrays;
 public class PrintFloor {
     public static void main(String [] args)
     {
-        int arr[]={-6 ,10, -1, 20, 15, 5};
+        int arr[]={1, 2, 8, 10, 10, 12, 19};
         Arrays.sort(arr);
-        int x=-4;
+        int x=5;
         System.out.println(func(arr,arr.length,x));
     }
 

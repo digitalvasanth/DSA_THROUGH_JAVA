@@ -10,8 +10,10 @@ public class ProductOfTwoArrays {
     
     public static void main(String [] args)
     {
-        int arr1[][]=  {{1,2},{3,-1}};
-        int arr2[][]=   { {1,-2,3 }, {2,3,-1} };
+        int arr1[][]=  {{1,2},
+                        {3,-1}};
+        int arr2[][]=   { {1,-2,3 },
+                         {2,3,-1} };
         
 
         int r1=arr1.length;
