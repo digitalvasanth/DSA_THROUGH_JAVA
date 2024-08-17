@@ -6,8 +6,6 @@ Output:
 Explanation: 6 is a leader. In addition to that, 12 is greater than all the elements in its right side (3, 0, 6), also 22 is greater than 12, 3, 0, 6.
  */
 
-
-
 import java.util.*;
 public class LeadersInArray
 {
