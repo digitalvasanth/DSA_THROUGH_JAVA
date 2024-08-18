@@ -1,7 +1,7 @@
 
 /*
  Input: arr[] = {1 20 40 100 80}, K = 60
-Output:  true
+Output:  true  
 Explanation: Pairs with difference 60 are (20,80)
  */
 import java.util.*;
