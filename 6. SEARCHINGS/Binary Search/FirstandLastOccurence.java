@@ -11,13 +11,13 @@ public class FirstandLastOccurence {
         int arr[]={3,4,13,13,13,20,40};
         int n=arr.length;
         int target=13;
-        int lb=lowerbound(arr,n,target);
-        int up=upperbound(arr,n,target);
+        int first=lowerbound(arr,n,target);
+        int last=upperbound(arr,n,target);
 
-        if(arr[lb]!=target||lb==n)
+        if(arr[first]!=target||first==n)
             System.out.println("No element");
         else    
-            System.out.println("First at "+lb+ " Last at "+(up-1));
+            System.out.println("First at "+first+ " Last at "+(last-1));
     }
 
     public static int lowerbound(int arr[],int n,int target)
