@@ -21,9 +21,10 @@ public class SearchInRotatedSortedArray1 {
         while(low<=high)
         {
             int mid=(low+high)/2;
-            //left to it is Sorted
+            
             if(arr[mid]==k)
             return mid;
+            //left to it is Sorted
             if(arr[low]<=arr[mid])
             {
                 if(k>=arr[low]&&k<=arr[mid])
