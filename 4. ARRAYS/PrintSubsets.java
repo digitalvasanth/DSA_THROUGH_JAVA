@@ -39,6 +39,7 @@ public static void printsubsets(int arr[], int n)
         return false;
     }
 */
+//2. USING BACKTRACKING 
 import java.util.*;
 
 public class PrintSubsets {
