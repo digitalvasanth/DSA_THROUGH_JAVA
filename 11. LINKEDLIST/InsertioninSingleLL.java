@@ -1,5 +1,5 @@
 
-public class Insertion {
+public class InsertioninSingleLL {
     
     public static class Node
     {
