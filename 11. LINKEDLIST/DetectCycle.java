@@ -1,4 +1,24 @@
+/*
+ 1. ( BRUTE FORCE )
+ public static boolean detect(Node head)
+    {
+        Node temp=head;
+       HashSet<Node>set=new HashSet<>();
 
+       while(temp!=null)
+       {
+        if(set.contains(temp))
+        return true;
+        else
+        set.add(temp);
+
+        temp=temp.next;
+       }
+       return false;
+    }
+ */
+
+ // 2. ( OPTIMAL )
 import java.util.*;
 public class DetectCycle {
     public static class Node{
@@ -34,20 +54,17 @@ public class DetectCycle {
 
     public static boolean detect(Node head)
     {
-        Node temp=head;
-       HashSet<Node>set=new HashSet<>();
+        Node slow=head;
+        Node fast=head;
 
-       while(temp!=null)
-       {
-        if(set.contains(temp))
-        return true;
-        else
-        set.add(temp);
+        while(fast!=null&&fast.next!=null)
+        {
+            slow=slow.next;
+            fast=fast.next.next;
 
-        temp=temp.next;
-       }
-       return false;
-      
-
+            if(slow==fast)
+            return true;
+        }
+        return false;
     }
 }
