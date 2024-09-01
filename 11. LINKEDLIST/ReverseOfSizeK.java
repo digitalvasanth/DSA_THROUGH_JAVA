@@ -39,9 +39,10 @@ public static void main(String [] args)
 
         Node temp=head;
         Node prevlast=null;
+
         while(temp!=null)
         {
-            Node knode=getkthnode(k, temp);
+            Node knode=getknode(k,temp);
 
             if(knode==null)
             {
@@ -50,17 +51,17 @@ public static void main(String [] args)
 
                 break;
             }
+
             Node nextnode=knode.next;
             knode.next=null;
-            reverse(temp);
+            Node reversedhead=reverse(temp);
 
             if(temp==head)
-            {
-                head=knode;
-            }
+            head=reversedhead;
             else
-            prevlast.next=knode;
+            prevlast.next=reversedhead;
 
+           
             prevlast=temp;
             temp=nextnode;
         }
@@ -68,7 +69,7 @@ public static void main(String [] args)
        
     }
 
-    public static Node getkthnode(int k, Node temp)
+    public static Node getknode(int k, Node temp)
     {
        k-=1;
 
