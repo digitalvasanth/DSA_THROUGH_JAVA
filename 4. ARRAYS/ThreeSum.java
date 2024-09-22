@@ -11,22 +11,32 @@ Explanation:
  1. ( BRUTE FORCE )
  public static void printpairs(int arr[],int n)
     {
-        Set<List<Integer>>set=new HashSet<>();
+    Arrays.sort(arr);
+         int n=arr.length;
+        List<List<Integer>>ans=new ArrayList<>();
+        Set<ArrayList<Integer>>set=new HashSet<>();
         for(int i=0;i<n;i++)
         {
             for(int j=i+1;j<n;j++)
             {
-               List<Integer>temp=new ArrayList<>();
+                ArrayList<Integer>temp=new ArrayList<>();
                 for(int k=j+1;k<n;k++)
                 {
                     if(arr[i]+arr[j]+arr[k]==0)
-                    temp=Arrays.asList(arr[i],arr[j],arr[k]);
-                    temp.sort(null);
-                    set.add(temp);
+                    {
+                        temp.add(arr[i]);
+                        temp.add(arr[j]);
+                        temp.add(arr[k]);
+                        Collections.sort(temp);
+                        set.add(temp);
+                    }
                 }
             }
         }
-        for(List l:set)
+        for(ArrayList<Integer>l:set)
+        ans.add(l);
+
+        for(List l:ans)
         {
             if(!l.isEmpty())
             System.out.println(l);
@@ -38,23 +48,35 @@ Explanation:
 
 public static void printpairs(int arr[],int n)
     {
-        Set<List<Integer>>ans=new HashSet<>();
+        Arrays.sort(arr);
+        int n=arr.length;
+        List<List<Integer>>ans=new ArrayList<>();
+        Set<ArrayList<Integer>>set=new HashSet<>();
         for(int i=0;i<n;i++)
         {
-            Set<Integer>set=new HashSet<>();
+            HashSet<Integer>seta=new HashSet<>();
             for(int j=i+1;j<n;j++)
             {
-                 int third= -(arr[i]+arr[j])  ;
-               
-                if(set.contains(third)){
-                List<Integer>temp=Arrays.asList(arr[i],arr[j],third);
-                temp.sort(null);
-                ans.add(temp);
+                int third=-(arr[i]+arr[j]);
+
+                if(seta.contains(third)){
+                    ArrayList<Integer>temp=new ArrayList<>();
+                    temp.add(arr[i]);
+                    temp.add(arr[j]);
+                    temp.add(third);
+                    set.add(temp);
                 }
                 else
-                    set.add(arr[j]);   
+                seta.add(arr[j]);
+
             }
         }
+        for(ArrayList<Integer>l:set){
+
+            if(!l.isEmpty())
+            ans.add(l);
+        }
+       
         for(List l:ans)
         {
             if(!l.isEmpty())
