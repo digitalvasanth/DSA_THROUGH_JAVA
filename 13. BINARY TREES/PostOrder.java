@@ -28,26 +28,8 @@ public class PostOrder {
             this.right=null;
         }
     }
-    public static Node generateTree(int arr[])
-    {
-        Node root=null;
-        for(int i:arr){
-        if(i!=-1)
-        root=insert(i,root);
-        }
-        return root;
-    }
-    public static Node insert(int data, Node root)
-    {
-        if(root==null)
-            return new Node(data);
-        if(data<root.data)
-            root.left=insert(data,root.left);
-        else if(data>root.data)
-            root.right=insert(data,root.right);
-
-        return root;
-    }
+    
+   
     public static void main(String args[])
     {  
         Node root = new Node(1);
